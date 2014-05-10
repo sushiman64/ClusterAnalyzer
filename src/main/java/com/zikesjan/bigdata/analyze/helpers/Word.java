@@ -1,4 +1,4 @@
-package com.zikesjan.bigdata.analyze;
+package com.zikesjan.bigdata.analyze.helpers;
 
 public class Word implements Comparable<Word>{
 

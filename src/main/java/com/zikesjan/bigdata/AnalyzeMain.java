@@ -25,11 +25,6 @@ import com.zikesjan.bigdata.analyze.PointWritable;
 
 public class AnalyzeMain {
 	
-	//addresses of the helping storage directories
-    ///*private static final String MEANS_PATH = "/user/biadmin/output/means";
-    //private static final String OUTPUT_PATH_NORM = "/user/biadmin/output/normalized";
-    //private static final String CACHE_PATH = "/user/biadmin/output/cache";
-    //addresses of the means files
     private static final String ACTUAL_MEANS = "/user/biadmin/output/means/part-r-00000";
     
 

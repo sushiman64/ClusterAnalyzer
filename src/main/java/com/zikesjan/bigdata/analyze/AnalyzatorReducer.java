@@ -17,6 +17,9 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.output.MultipleOutputs;
 
+import com.zikesjan.bigdata.analyze.helpers.Document;
+import com.zikesjan.bigdata.analyze.helpers.Word;
+
 
 public class AnalyzatorReducer extends
 		Reducer<IntWritable, PointWritable, Text, Text> {
